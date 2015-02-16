@@ -1,0 +1,535 @@
+
+/*
+Theme Name: Robin Behroozi Designs
+Theme URI: robinbehroozi.com
+Author: the WordPress team and Robin Behroozi
+Author URI: http://wordpress.org/
+Description: Web Page of Robin Behroozi Designs
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+Text Domain: 
+
+This theme, like WordPress, is licensed under the GPL.
+
+
+*/
+
+/*****************************
+importing other css files
+*****************************/
+
+@import url('css/normalize.css');
+@import url('css/foundation.css');
+@import url('icons/foundation-icons.css');
+
+@import url('fis2/stylesheets/social_foundicons.css');
+
+
+/*****************************
+body
+*****************************/
+
+
+body{
+
+	margin-top:-50px;
+
+}
+
+/*****************************
+header
+*****************************/
+
+.header {
+
+
+	margin-top:40px;
+	/*
+	background-color:rgba(0, 173, 239, 1);
+	*/
+	background:rgba(158, 129, 207, 1);
+	color:rgba(30, 30, 30, 1);
+	padding-bottom: 30px;
+	
+	
+
+}
+
+/*****************************
+styling the rows
+*****************************/
+
+.hh{
+
+	padding-top:70px;
+	padding-bottom:70px;
+
+
+}
+
+.ht{
+
+	padding-top:70px;
+
+
+}
+
+.hz{
+
+	padding-top:30px;
+
+}
+
+.hc{
+
+	padding-top:40px;
+	padding-bottom: 70px;
+
+}
+
+.h2{
+
+	padding-bottom: 50px;
+
+}
+
+
+.image-container{
+
+	
+	padding-top:50px;
+	padding-bottom: 30px;
+	background:rgba(35, 151, 251, 0.7);
+
+
+}
+
+
+/*****************************
+buttons
+*****************************/
+
+
+a:hover{
+
+	color:rgba(158, 129, 207, 1);
+	position: relative;
+
+}
+
+.button{
+
+	background:rgba(0, 0, 0, 0);
+	border:2px solid rgba(30, 30, 30, 1);
+
+	color:rgba(30, 30, 30, 1);
+
+}
+
+.button:hover{
+
+
+	background:rgba(91, 47, 145, 1);
+	color:rgba(195, 195, 195, 1);
+}
+
+/*****************************
+titles
+*****************************/
+
+
+
+.title{
+
+	color:rgba(195, 195, 195, 1);
+
+}
+
+.title-m{
+
+	color:rgba(30, 30, 30, 1);
+
+}
+
+.centre{
+
+	text-align:center;
+
+}
+
+/*****************************
+images and icons
+*****************************/
+
+.img, .img-small{
+
+	width:100%;
+
+
+}
+
+.fi-social-zurb, .fi-html5, .fi-css3{
+
+	font-size:5em;
+
+	/*
+	color:rgba(30, 30, 30, 1);
+	*/
+
+	color:rgba(30, 30, 30, 1);
+
+}
+
+.foundicon-wordpress{
+
+	font-size:4.1em;
+
+	color:rgba(30, 30, 30, 1);
+	
+	
+
+}
+
+i.foundicon-wordpress{
+
+	display:inline-block;
+	margin-left:20px;	
+
+}
+
+
+
+.fi-social-zurb{
+
+	margin:0px 30px 0px 30px;
+
+}
+
+.fi-social-treehouse{
+
+	
+	color:rgba(27, 159, 57, 1);
+	
+
+	font-size:5em;
+}
+
+.fi-monitor, .fi-laptop, .fi-tablet-portrait, .fi-mobile{
+
+	font-size: 5em;
+
+}
+
+
+
+.fi-social-facebook, .fi-social-youtube, .fi-social-treehouse{
+
+	font-size:3em;
+	color:rgba(100, 100, 100, 1);
+
+
+}
+
+
+
+i.fi-social-facebook, i.fi-social-youtube{
+
+	display:inline-block;
+	margin-top:-15px;
+
+}
+
+i.fi-social-youtube, i.fi-social-treehouse{
+
+margin-left:20px;
+
+}
+
+i.mw{
+
+
+margin-left:0;
+
+}
+
+.fi-html5:hover, .fi-social-zurb:hover, .fi-css3:hover, .foundicon-wordpress:hover{
+
+	
+	color:rgba(91, 47, 145, 1);
+
+
+}
+
+
+.babe{
+
+	float:left;
+	margin-right:20px;
+	
+
+}
+
+.dude{
+
+	float:right;
+
+}
+
+.dude2, .babe2{
+
+	display:none;
+
+}
+
+.dude3, .babe3{
+
+	display:none;
+
+}
+
+/*****************************
+top footer
+*****************************/
+
+.zurb-footer-top{
+
+	background:rgba(91, 47, 145, 1);
+	padding-top:40px;
+	padding-bottom: 30px;
+	color:rgba(195, 195, 195, 1);
+
+}
+
+/*****************************
+email
+*****************************/
+
+.email{
+
+	color:rgba(195, 195, 195, 1);
+
+}
+
+.email:hover{
+
+
+	color:white;
+}
+
+/*****************************
+bottom footer
+*****************************/
+
+.zurb-footer-bottom{
+
+	background:rgba(50, 50, 50, 1);
+	padding-top:20px;
+
+}
+
+
+/*****************************
+blog posts
+*****************************/
+
+
+
+.blogp{
+
+padding-bottom: 50px;
+padding-top: 50px;
+
+
+}
+
+.scroll{
+
+	display:none;
+}
+
+
+@media screen and (max-width: 960px){
+
+
+/*****************************
+images
+*****************************/
+
+
+	.babe, .dude{
+
+		display:none;
+	}
+
+	.babe3 {
+
+		display:block;
+		float:left;
+
+	}
+
+	.dude3{
+
+		display:block;
+		float:right;
+
+	}
+
+
+	
+}
+
+
+@media screen and (max-width:750px){
+
+/*****************************
+images
+*****************************/
+
+.dude2{
+
+		display:block;
+		float:right;
+
+	}
+
+.babe2{
+
+		display:block;
+		float:left;
+
+	}
+
+	.babe3, .dude3{
+
+		display:none;
+	}
+
+
+}
+
+
+
+@media screen and (max-width:641px){
+
+
+/*****************************
+body
+*****************************/
+
+body{
+
+	margin-top:-90px;
+
+}
+
+/*****************************
+images and icons
+*****************************/
+
+i.foundicon-wordpress{
+
+	display:inline-block;
+	margin-left:20px;	
+
+}
+
+.fi-social-zurb, .fi-html5, .fi-css3{
+
+	font-size:4em;
+
+	/*
+	color:rgba(30, 30, 30, 1);
+	*/
+
+	color:rgba(30, 30, 30, 1);
+
+}
+.foundicon-wordpress{
+
+	font-size:3em;
+
+	color:rgba(30, 30, 30, 1);
+	
+}
+
+.img3{
+
+	display:none;
+
+}
+
+.img, .img-small{
+
+	padding-bottom:30px;
+}
+
+/*****************************
+top bar
+*****************************/
+
+.top-bar{
+
+	display:none;
+}
+
+
+
+.scroll{
+
+	display:block;
+	
+	text-align: center;
+}
+
+}
+
+@media screen and (max-device-width: 640px){
+
+/*****************************
+body
+*****************************/
+	
+	body{
+
+		margin-top:-40px;
+
+	}
+
+/*****************************
+images and icons
+*****************************/
+
+	i.foundicon-wordpress{
+
+	display:inline-block;
+	margin-left:15px;	
+
+}
+.fi-social-zurb, .fi-html5, .fi-css3{
+
+	font-size:3em;
+
+	/*
+	color:rgba(30, 30, 30, 1);
+	*/
+
+	color:rgba(30, 30, 30, 1);
+
+}
+
+.foundicon-wordpress{
+
+	font-size:2.5em;
+
+	color:rgba(30, 30, 30, 1);
+	
+}
+
+
+}
+
+
+
